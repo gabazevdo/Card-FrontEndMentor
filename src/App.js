@@ -4,7 +4,7 @@ import {
   Card,
   DivImage,
   InfoCard,
-  OrderSumary,
+  OrderSummary,
   CardPrice,
   Button,
   ProcessedPay,
@@ -21,14 +21,14 @@ function App() {
           <Card>
             <DivImage />
             <InfoCard>
-              <OrderSumary>
-                <h2>Order Sumary</h2>
+              <OrderSummary>
+                <h2>Order Summary</h2>
 
                 <p>
                   You can now listn to millions of songs, audiobooks, and
                   poodcasts on any device anywhere you like!
                 </p>
-              </OrderSumary>
+              </OrderSummary>
 
               <CardPrice>
                 <span>

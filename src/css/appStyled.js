@@ -58,7 +58,7 @@ export const InfoCard = styled.div`
   flex-direction: column;
 `;
 
-export const OrderSumary = styled.div`
+export const OrderSummary = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
