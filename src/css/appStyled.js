@@ -2,6 +2,8 @@ import styled from "styled-components";
 import backgroundCurve from "../images/pattern-background-desktop.svg";
 import backgroundMusic from "../images/illustration-hero.svg";
 
+
+
 export const Body = styled.body`
   height: 100vh;
   width: 100%;
