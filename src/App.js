@@ -14,6 +14,12 @@ import {
 import iconMusic from "./images/icon-music.png";
 
 function App() {
+
+
+const Click = () =>{
+  alert("You clicked")
+}
+
   return (
     <>
       <Body>
@@ -41,15 +47,15 @@ function App() {
                 </span>
 
                 <span>
-                  <a href="#">Change</a>
+                  <a href="#" onClick={Click}>Change</a>
                 </span>
 
               </CardPrice>
             </InfoCard>
 
             <ProcessedPay>
-              <Button>Processed to payment</Button>
-              <a>Cancel order</a>
+              <Button onClick={Click}>Processed to payment</Button>
+              <a href="#" onClick={Click}>Cancel order</a>
             </ProcessedPay>
           </Card>
         </ContainerCard>
